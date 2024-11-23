@@ -7,6 +7,6 @@ def redirect_to_upload(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('upload/', include('app_name.urls')),  # Connect app-level URLs
+    path('upload/', include('pdf_manager.urls')),  # Connect app-level URLs
     path('', redirect_to_upload),  # Redirect root URL to /upload/
 ]
