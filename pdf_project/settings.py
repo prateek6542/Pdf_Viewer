@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wu1d3ukc7@%5li5tn(0!^*($k4$u)81#28p3z(b!!0xovd(%v6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pdf-viewer-tjsc.onrender.com']
+ALLOWED_HOSTS = ['pdf-viewer-opsw.onrender.com'] 
 
 
 # Application definition
